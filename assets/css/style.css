@@ -1,0 +1,141 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/*Rectangle 1*/
+.principal {
+    background: #000000;
+    text-align: center;
+    width: 100%;
+}
+.principal h1 {
+    font-weight: 500;
+    font-size: 3.125rem;
+    padding: 1%;
+}
+.img-1 {
+    width: 100%;
+}
+
+ /*Rectangle 3*/
+.desc-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5%;
+    background: #000000;
+    text-align: left;
+    vertical-align: middle;  
+}
+.second-section {
+    margin-left: 3%;
+    width: 40%;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+.second-section p {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: justify;
+} 
+.img-2 {
+    width:34%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5%;
+}
+
+/*Rectangle 7*/
+.icons-section {
+    background: #1E1A13;
+    width: 100%;
+    padding: 1%;
+}
+.icons-section h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 2%;
+}
+.icons-section h4 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    
+}
+.icons {
+    align-items: center;
+} 
+.icon {
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-weight: 300;
+    padding: 0.5%;
+    white-space: nowrap;
+}
+
+/*Rectangle 5*/
+.sub-imagen {
+    display: inline-block;
+    width:80%;
+    padding: 10%;
+    align-items: center;
+}
+.iguana {
+    width: 25%;
+    height: auto;
+}
+
+/*Footer*/
+footer {
+    background: #1E1A13;
+    font-weight: 300;
+    font-size:  1.25rem;
+    padding: 2.5%;
+    text-align: center;
+}
+
+/*Responsive*/
+@media (max-width: 760px) {
+    .second-section {
+        display: block;
+        width: 90%;
+        text-align: justify;
+    }
+    .img-2 {
+        width: 90%;
+    }
+    .icons-section {
+        text-align: center;
+        align-items: center;
+    }
+    .icon {
+        width: 8%;
+        padding: 8%;
+    }
+    .icons-section h1 {
+        font-size: 1rem;
+        padding-top: 8%;
+    }
+    .icons-section h4 {
+        padding: 8%;
+        font-size: 0.5rem;
+        
+    }
+    footer {
+        font-size: 0.5rem;
+    }
+}
